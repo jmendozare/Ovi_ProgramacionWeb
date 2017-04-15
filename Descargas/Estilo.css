@@ -1,0 +1,226 @@
+/*
+	Desarrollado Por:______________Olga Lizeth Monroy G.
+*/
+/* Estilo generales para el Software */
+@charset "utf-8";
+/*______________________________________________________________________*/
+*{
+  margin: 0px;
+  padding: 0px;
+}
+/* Estilo para el body */
+body{
+ 	width: 99.6%;
+  	font-family: Angsana New;
+  	font-size: 16px;
+  	margin: auto;
+  	background-color: white;
+}
+article{
+	width: 55.2%;
+	min-width: 650px;
+	height: 700px;
+	padding: 5px;
+	border-radius: 20px;
+	margin: auto;
+	background: radial-gradient(circle, white, #EBF5FB);
+	box-shadow: 2px 3px 12px 7px #AED6F1;
+	display:block;
+	position:fixed;
+	top:0;
+	right:0;
+	bottom:0;
+	left:0;
+	border: 2px solid #5DADE2;
+}
+h1{
+	font-size: 45px;
+	text-align: center;
+	text-shadow: #5DADE2 0.06em 0.05em 0.05em;
+}
+nav{
+	width: 98%;
+	height: 40px;
+	background-color: #2980B9;
+	display: block;
+	position: absolute;
+	margin: auto;
+	float: left;
+	border-top: 2px solid black;
+	border-bottom: 2px solid black;
+	border-right: 2px solid black;
+	border-left: 2px solid black;
+}
+/*quitarle las decoraciones y estilos a las listas*/
+.nav{
+	width: 99.5%;
+	list-style: none;
+	text-decoration: none;
+	margin: 0;
+	padding: 0;
+}
+/*alinear el menu principal a la derecha.*/
+.nav > li{
+	float: left;
+}
+/*datos del menu*/
+.nav li a{
+	width: 122.5px;
+	color: black;
+	display: block;
+	padding: 1px;
+	font-size: 28px;
+	text-shadow: white 0.05em 0.02em 0.1em;
+	font-weight: bold;
+	list-style: none;
+	text-decoration: none;
+	text-align: center;
+}
+/*estilos para el efecto hover cuando el mouse este en su posicion*/
+.nav li a:hover{
+	color: white;
+	background-color: #AED6F1;
+	text-shadow: black 0.05em 0.02em 0.1em;
+	height: 39.5px;
+}
+/*estilos para la clase activada*/
+.nav li a.active{
+	color: white;
+	background-color: #AED6F1;
+	text-shadow: black 0.05em 0.02em 0.1em;	
+	border-left: 2px solid black;
+	border-right: 2px solid black;
+	height: 39.5px;
+}
+.tableform{
+	width: 80%;
+	background-color: transparent;
+	margin: auto;
+	margin-top: 50px;
+	font-size: 28px;
+	font-weight: normal;
+	position: relative;
+}
+h2{
+	font-size: 35px;
+	font-weight: bold;
+	text-align: center;
+	text-shadow: #5DADE2 0.06em 0.05em 0.05em;
+}
+.input_text{
+	width: 250px;
+	height: 30px;
+	background-color: white;
+	border-radius: 5px;
+	border: 2px solid grey;
+	text-align: center;
+}
+.input_no{
+	width: 250px;
+	height: 30px;
+	background-color: #FEE3E4;
+	border-radius: 5px;
+	border: 2px solid #FE6868;
+	text-align: center;
+}
+.input_search{
+	width: 250px;
+	height: 35px;
+	background-color: #EAECFB;
+	border-radius: 5px;
+	border: 2px solid grey;
+	text-align: center;
+}
+.search_no{
+	width: 250px;
+	height: 35px;
+	background-color: #FEE3E4;
+	border-radius: 5px;
+	border: 2px solid #FE6868;
+	text-align: center;
+}
+.submit{
+	width: 150px;
+	height: 35px;
+	background-color: #5DADE2;
+	border-radius: 5px;
+	border: 2px solid grey;
+	font-size: 20px;
+	font-weight: bold;
+	text-align: center;
+	text-shadow: pink 0.06em 0.05em 0.5em;
+	cursor: pointer;
+	color: black;
+}
+.submit:hover{
+	color: white;
+	text-shadow: black 0.06em 0.05em 0.5em;
+	background: radial-gradient(circle, #5DADE2, #EBF5FB);
+}
+/*Estilos para las imagenes de los mensajes de alertas*/
+.alert_img{
+	width: 25px;
+	margin-bottom: -5px;
+	display: inline-block;
+}
+.alert_text{
+	color: black;
+	font-size: 25px;
+	font-weight: bold;
+	text-align: center;
+	display: inline-block;
+}
+/*Estilos para los mesajes de alertas o Bienvenidas*/
+.alert{
+	width: 300px;
+	background-color: #EAFAF1;
+	box-shadow: 0.8px 2px 6px 3px rgba(0,0,0,0.5);
+	padding: 8px 8px 8px;
+	border-radius: 20px;
+	border:1px solid #999;
+	border:1px solid rgba(0,0,0,.2);
+}
+.alerto{
+	width: 300px;
+	background-color: #FADBD8;
+	box-shadow: 0.8px 2px 6px 3px rgba(0,0,0,0.5);
+	padding: 8px 8px 8px;
+	border-radius: 20px;
+	border:1px solid #999;
+	border:1px solid rgba(0,0,0,.2);
+}
+.Exit{
+	width: 330px;
+	background-color: #FADBD8;
+	box-shadow: 0.8px 2px 6px 3px rgba(0,0,0,0.5);
+	padding: 8px 8px 8px;
+	border-radius: 20px;
+	border:1px solid #999;
+	border:1px solid rgba(0,0,0,.2);
+}
+.tablacons{
+	width: 99%;
+	background-color: transparent;
+	margin: auto;
+	border: 2px solid #5DADE2;
+}
+.trtitulo{
+	font-weight: bold;
+	font-size: 22px;
+	color: black;
+	background-color: #AED6F1;
+	text-align: center;
+}
+.trcuerpo{
+	font-size: 22px;
+	text-align: center;
+	color: black;
+}
+.jerffen{
+	float: right;
+	font-weight: bold;
+	font-size: 20.5px;
+	margin-top: -7px;
+	margin-right: 2px;
+	text-shadow: white 0.06em 0.05em 0.05em;
+}

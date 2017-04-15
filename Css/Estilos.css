@@ -1,0 +1,647 @@
+/*
+	Desarrollado Por:______________Tec. Jerffen Mendoza Regino.
+*/
+/* Estilo generales para el Software */
+@charset "utf-8";
+/*______________________________________________________________________*/
+*{
+  margin: 0px;
+  padding: 0px;
+}
+/* Estilos para las listas */
+ul, ol{
+  list-style: none;
+}
+/* Estilo para el body */
+body{
+ 	width: 99.6%;
+  	font-family: Angsana New;
+  	font-size: 16px;
+  	margin: auto;
+  	background-color: #F1F1F1;
+}
+/*______________________________________________________________________*/
+/*Contenedor Principal*/
+section{
+	min-width: 990px;
+	max-width: 1150px;
+	height: 909px;
+	margin: auto;
+	margin-top: 2px;
+	background-color: white;
+	border-radius: 10px;
+	position: relative;
+	border: 2px solid black;
+}
+/*______________________________________________________________________*/
+/*contenedor para el borde derecho d ela pagina*/
+aside{
+	width: 10%;
+	height: 907.4px;
+	border-radius: 10px 0px 0px 10px;
+	border: 2px solid black;
+	border-right: 10px dotted black;
+	margin-top: -1px;
+	margin-left: -2px;
+	display: inline-block;
+	position: relative;
+	background-position: center;
+    background: radial-gradient(circle, #2980B9, #005883);
+}
+.Rotate-90{
+	width: 900px;
+  	transform: rotate(-90deg);
+  	font-size: 50px;
+  	font-weight: bold;
+  	text-shadow: white 0.05em 0.02em 0.1em;
+  	margin-top: 420px;
+  	margin-left: -400px;
+  	background-color: transparent;
+}
+/*______________________________________________________________________*/
+/*contenedor para el encabezado*/
+header{
+	width: 89%;
+	height: 159px;
+	display: inline-block;
+	background-color: transparent;
+	position: absolute;
+	border-bottom: 2px solid black;
+}
+.logo_header{
+	width: 57%;
+	background-color: transparent;
+	display: inline-block;
+}
+.text_header{
+	width: 40%;
+	font-size: 55px;
+	text-align: right;
+	text-shadow: #005883 0.05em 0.02em 0.1em;
+	font-weight: bold;
+	background-color: transparent;
+	display: inline-block;
+}
+/*______________________________________________________________________*/
+/*Menu del aplicativo*/
+nav{
+	width: 89.05%;
+	height: 40px;
+	background-color: #2980B9;
+	display: inline-block;
+	position: absolute;
+	margin: auto;
+	float: left;
+	margin-top: 161.1px;
+	margin-left: 0px;
+	border-bottom: 2px solid black;
+}
+/*quitarle las decoraciones y estilos a las listas*/
+.nav{
+	width: 99.5%;
+	list-style: none;
+	text-decoration: none;
+	margin: 0;
+	padding: 0;
+}
+/*alinear el menu principal a la derecha.*/
+.nav > li{
+	float: left;
+}
+/*datos del menu*/
+.nav li a{
+	width: 122.5px;
+	color: black;
+	display: block;
+	padding: 1px;
+	font-size: 28px;
+	text-shadow: white 0.05em 0.02em 0.1em;
+	font-weight: bold;
+	list-style: none;
+	text-decoration: none;
+	text-align: center;
+}
+/*estilos para el efecto hover cuando el mouse este en su posicion*/
+.nav li a:hover{
+	color: white;
+	background-color: #AED6F1;
+	text-shadow: black 0.05em 0.02em 0.1em;
+	height: 39.5px;
+}
+/*estilos para la clase activada*/
+.nav li a.active{
+	color: white;
+	background-color: #AED6F1;
+	text-shadow: black 0.05em 0.02em 0.1em;	
+	border-left: 2px solid black;
+	border-right: 2px solid black;
+	height: 39.5px;
+}
+/*ocultar los submenus*/
+.nav li ul{
+	min-width: 128px;
+	display: none;
+	position: absolute;
+}
+/*Visualizar el submenu*/
+.nav li:hover > ul{
+	display: block;
+}
+.nav li ul a{
+	min-width: 128px;
+	height: 39px;
+	margin-top: -1.5px;
+	text-align: left;
+	vertical-align: middle;
+	background-color: #2980B9;
+}
+.nav li ul a:hover{
+	height: 39px;
+}
+/*estilos para el indicador del menu*/
+.nav li .flecha{
+	font-size: 15px;
+	padding-left: 6px;
+	display: none;
+}
+.nav li a:not( :last-child) .flecha{
+	display: inline;
+}
+
+/*______________________________________________________________________*/
+/*contenedor para el cuerpo de la Informacion*/
+article{
+	width: 89%;
+	height: 585px;
+	margin-top: 205px;
+	display: inline-block;
+	background-color: transparent;
+	position: absolute;
+	border-bottom: 2px solid black;
+}
+.article{
+	width: 99.5%;
+	background-color: transparent;
+	display: inline-block;
+	padding: 2px;
+	font-size: 26px;
+	text-align: justify;
+	line-height: 35px;
+	border: none;
+}
+.tit_informacion{
+	font-size: 32px;
+	text-shadow: #2980B9 0.05em 0.02em 0.1em;
+}
+/*Botones de Adelantes y Atras de Inicio*/
+.botton_right{
+	width: 40px;
+	height: 40px;
+	float: right;
+	margin-top: -20px;
+	margin-right: 10px;
+	border-radius: 18px;
+	background: url("../Img/Right_black.png") no-repeat center right;
+	cursor: pointer;
+}
+.botton_right:hover{
+	width: 40px;
+	height: 40px;
+	float: right;
+	margin-top: -20px;
+	margin-right: 10px;
+	border-radius: 18px;
+	background: url("../Img/Right_gray.png") no-repeat center right;
+	cursor: pointer;
+}
+@media screen and (min-width: 1170px){
+    .botton_right {
+    	margin-top: 35px;
+    }
+    .botton_right:hover{
+    	margin-top: 35px;
+    }
+}
+.botton_left{
+	width: 40px;
+	height: 40px;
+	float: left;
+	margin-top: 240px;
+	margin-left: 10px;
+	border-radius: 18px;
+	background: url("../Img/Left_black.png") no-repeat center right;
+	cursor: pointer;
+}
+.botton_left:hover{
+	width: 40px;
+	height: 40px;
+	float: left;
+	margin-top: 240px;
+	margin-left: 10px;
+	border-radius: 18px;
+	background: url("../Img/Left_gray.png") no-repeat center right;
+	cursor: pointer;
+}
+/*Boton de ver informacion de los Integrantes*/
+.ver_inf{
+	width: 100px;
+	height: 35px;
+	border-radius: 10px;
+	cursor: pointer;
+	background-position: center;
+    background: radial-gradient(circle, #2980B9, #005883);
+}
+.ver_inf:hover{
+	color: white;
+	background-position: center;
+    background: radial-gradient(circle, #005883, #2980B9);
+}
+/*__________________________________________________________________________*/
+/*Estilos para la tabla de Integrantes*/
+.table{
+	width: 100%;
+	background-color: transparent;
+	padding: 2px;
+	font-size: 26px;
+	text-align: justify;
+	line-height: 35px;
+	border: none;
+}
+/*__________________________________________________________________________*/
+/* Estilos para la opcion de Actualizar el perfil */
+/*Contenedor para los estilos de modal oculta*/
+.modal{
+	position:fixed;
+	top:0;
+	right:0;
+	bottom:0;
+	left:0;
+	z-index:1050;
+	display:none;
+	overflow:hidden;
+	-webkit-overflow-scrolling:touch;
+	outline:0;
+}
+/*Estilos para la Ventana que contiene el contenido del modal*/
+.modal-content{
+	width: 30%;
+	min-width: 450px;
+	position:relative;
+	background-color:white;
+	margin:auto;
+	margin-top: 140px;
+	padding: auto;
+	padding: 40px 0px 20px 0px;
+	border:1px solid #999;
+	border:1px solid rgba(0,0,0,.2);
+	border-radius:6px;
+	box-shadow: 1px 3.5px 8px 4px rgba(0,0,0,0.7);
+	border: 2px solid grey;
+	font-family: cambria;
+	font-weight: normal;
+}
+/*Color de la Ventana Trasparente*/
+.modal-backdrop{
+	position:fixed;
+	top:0;
+	right:0;
+	bottom:0;
+	left:0;
+	z-index:1040;
+	background-color:#000;
+}
+/*Estilos para la Opacidad del contenedor.*/
+.modal-backdrop.in{
+	filter:alpha(opacity=50);
+	opacity:.5
+}
+/*Estilos para el Boton de cerrar el formulario de Actualizar*/
+.cerrar_for{
+	width: 25px;
+	height: 25px;
+	background-color: #F1F1F1;
+	font-size: 20px;
+	color: black;
+	float: right;
+	margin-top: -27px;
+	margin-right: 13px;
+	font-weight: bold;
+}
+.cerrar_for:hover{
+	color: red;
+	background-color: #B2B2B2;
+	font-weight: bold;
+}
+.cerrar_botton{
+	width: 100px;
+	height: 35px;
+	background-color: #F1F1F1;
+	font-size: 20px;
+	color: black;
+	border-radius: 10px;
+	font-weight: bold;
+}
+.cerrar_botton:hover{
+	color: red;
+	background-color: #B2B2B2;
+	font-weight: bold;
+}
+.tit_perfil{
+	text-align: center
+	color: black;
+	font-size: 25px;
+	text-shadow: #2980B9 0.05em 0.02em 0.1em;
+}
+.photo{
+	width: 150px;
+	height: 200px;
+	border-radius: 10px;
+	border: 1px solid gray;
+}
+.inf_perfil{
+	font-size: 18px;
+}
+/*______________________________________________________________________*/
+/*estilos para el modulo de lectura*/
+.left_article{
+	width: 58%;
+	height: 578px;
+	padding: 2px;
+	margin-left: 2px;
+	background-color: transparent;
+	position: relative;
+	float: left;
+	font-size: 25px;
+	text-align: justify;
+}
+.left_article_e{
+	width: 58%;
+	height: 578px;
+	padding: 2px;
+	margin-left: 2px;
+	background-color: transparent;
+	position: relative;
+	float: left;
+	font-size: 25px;
+	text-align: justify;
+	line-height: 25px;
+}
+.tit_h1{
+	font-size: 35px;
+	text-align: center;
+	text-shadow: #2980B9 0.05em 0.02em 0.1em;
+}
+.link{
+	color: blue;
+	font-weight: bold;
+}
+.linka{
+	color: blue;
+	font-weight: bold;
+	text-decoration: none;
+}
+.rigth_article{
+	width: 40%;
+	height: 578px;
+	padding: 2px;
+	margin-left: 2px;
+	background-color: transparent;
+	position: relative;
+	float: right;
+	font-size: 25px;
+	text-align: justify;
+}
+.img_lectura{
+	width: 99.5%;
+	height: 400px;
+}
+.preg_left{
+	width: 20%;
+	height: 578px;
+	padding: 2px;
+	margin-left: 2px;
+	background-color: transparent;
+	position: relative;
+	float: left;
+}
+.preg_center{
+	width: 57.5%;
+	height: 578px;
+	overflow-y: auto;
+	padding: 2px;
+	margin-left: 2px;
+	background-color: transparent;
+	position: relative;
+	float: left;
+	font-size: 25px;
+	line-height: 25px;
+	text-align: justify;
+}
+.preg_rigth{
+	width: 20%;
+	height: 578px;
+	padding: 2px;
+	margin-left: 2px;
+	background-color: transparent;
+	position: relative;
+	float: left;
+}
+.preg_img{
+	width: 100%;
+}
+.botton_preg{
+	width: 100px;
+	height: 35px;
+	background-color: #5DADE2;
+	border-radius: 5px;
+	border: 2px solid grey;
+	font-size: 20px;
+	text-align: center;
+	text-shadow: pink 0.06em 0.05em 0.5em;
+	cursor: pointer;
+	color: black;
+}
+.botton_preg:hover{
+	color: black;
+	text-shadow: black 0.06em 0.05em 0.5em;
+	background: radial-gradient(circle, #5DADE2, #EBF5FB);
+}
+.red{
+	width: 400px;
+	background-color: #F5B7B1;
+	margin: auto;
+	border: 2px solid grey;
+	border-radius: 20px;
+	font-size: 35px;
+	text-align: center;
+	text-shadow: #145A32 0.05em 0.02em 0.1em;
+	font-weight: bold;
+}
+.yellow{
+	width: 400px;
+	background-color: #F9E79F;
+	margin: auto;
+	border: 2px solid grey;
+	border-radius: 20px;
+	font-size: 35px;
+	text-align: center;
+	text-shadow: #2980B9 0.05em 0.02em 0.1em;
+	font-weight: bold; 
+}
+.blue{
+	width: 400px;
+	background-color: #AED6F1;
+	margin: auto;
+	border: 2px solid grey;
+	border-radius: 20px;
+	font-size: 35px;
+	text-align: center;
+	text-shadow: #78281F 0.05em 0.02em 0.1em;
+	font-weight: bold;
+}
+.green{
+	width: 400px;
+	background-color: #ABEBC6;
+	margin: auto;
+	border: 2px solid grey;
+	border-radius: 20px;
+	font-size: 35px;
+	text-align: center;
+	text-shadow: #7D6608 0.05em 0.02em 0.1em;
+	font-weight: bold;
+}
+.total{
+	font-size: 90px;
+}
+.volver{
+	height: 35px;
+	text-decoration: none;
+	background-color: #5DADE2;
+	border-radius: 5px;
+	border: 2px solid grey;
+	font-size: 30px;
+	text-align: center;
+	text-shadow: pink 0.06em 0.05em 0.5em;
+	cursor: pointer;
+	color: black;
+	font-weight: bold;
+}
+.volver:hover{
+	color: black;
+	text-shadow: black 0.06em 0.05em 0.5em;
+	background: radial-gradient(circle, #5DADE2, #EBF5FB);
+}
+/*______________________________________________________________________*/
+/*estilos para la descarga*/
+.descarga{
+	color: blue;
+	font-weight: bold;
+	text-decoration: none;
+}
+.input_text{
+	width: 310px;
+	height: 30px;
+	background-color: white;
+	border-radius: 5px;
+	border: 2px solid grey;
+	text-align: center;
+}
+.input_no{
+	width: 310px;
+	height: 30px;
+	background-color: #FEE3E4;
+	border-radius: 5px;
+	border: 2px solid #FE6868;
+	text-align: center;
+}
+.cargar{
+	height: 35px;
+	text-decoration: none;
+	background-color: #5DADE2;
+	border-radius: 5px;
+	border: 2px solid grey;
+	font-size: 30px;
+	text-align: center;
+	text-shadow: pink 0.06em 0.05em 0.5em;
+	cursor: pointer;
+	color: black;
+	font-weight: bold;
+}
+.cargar:hover{
+	color: black;
+	text-shadow: black 0.06em 0.05em 0.5em;
+	background: radial-gradient(circle, #5DADE2, #EBF5FB);
+}
+/*Estilos para los mesajes de alertas o Bienvenidas*/
+.alert{
+	width: 350px;
+	background-color: #EAFAF1;
+	box-shadow: 0.8px 2px 6px 3px rgba(0,0,0,0.5);
+	padding: 8px 8px 8px;
+	border-radius: 20px;
+	border:1px solid #999;
+	border:1px solid rgba(0,0,0,.2);
+}
+.alerto{
+	width: 350px;
+	background-color: #FADBD8;
+	box-shadow: 0.8px 2px 6px 3px rgba(0,0,0,0.5);
+	padding: 8px 8px 8px;
+	border-radius: 20px;
+	border:1px solid #999;
+	border:1px solid rgba(0,0,0,.2);
+}
+/*Estilos para las imagenes de los mensajes de alertas*/
+.alert_img{
+	width: 25px;
+	margin-bottom: -5px;
+	display: inline-block;
+}
+.alert_text{
+	color: black;
+	font-size: 25px;
+	font-weight: bold;
+	text-align: center;
+	display: inline-block;
+}
+/*______________________________________________________________________*/
+/*contenedor para el pie de pagina*/
+footer{
+	width: 89%;
+	height: 115px;
+	margin-top: 790px;
+	display: inline-block;
+	background-color: transparent;
+	position: absolute;
+	font-weight: bold;
+	font-size: 28px;
+	text-shadow: #005883 0.05em 0.02em 0.1em;
+	line-height: 20px;
+}
+.redsocial{
+	width: 35px;
+	height: 35px;
+}
+.redtexto{
+	text-decoration: none;
+	color: black;
+}
+.redtexto:hover{
+	color: blue;
+}
+.contador{
+	width: 202px;
+	height: 62px;
+	background: url("../Img/Contador.png") no-repeat center right;
+	margin-right: 10px;
+	margin-top: -5px;
+	float: right;
+}
+.text_contador{
+	color: blue;
+	font-weight: bold;
+	font-size: 55px;
+	text-align: center;
+	padding-top: -20px;
+	text-shadow: white 0.05em 0.02em 0.1em;
+}
