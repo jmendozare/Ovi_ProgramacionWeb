@@ -1,7 +1,7 @@
 				<table class="article" width="99.5%">
 					<tr>
 						<td colspan="3" class="tit_informacion">
-							<center><b><h1>. : Información General "OVI" : .</h1></b></center>
+							<center><b><h1> OVI-INFORMACION GENERAL</h1></b></center>
 						</td>
 					</tr>
 					<tr>
@@ -10,7 +10,7 @@
 						</td>
 						<td width="2%"><b>:</b></td>
 						<td width="77%">
-							Programación Web 1.
+							PROGRAMACIÓN WEB 1
 						</td>
 					</tr>
 					<tr>
