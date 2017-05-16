@@ -1,5 +1,5 @@
 <!--
-	Desarrollado Por:______________Tec. Jerffen Mendoza Regino.
+	Desarrollado Por:______________Olga Lizeth Monroy García.
  -->
 <!DOCTYPE html>
 <html lang="es">
