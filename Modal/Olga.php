@@ -1,5 +1,5 @@
 <!-- 
-	Desarrollado Por:______________Tec. Jerffen Mendoza Regino.
+	Desarrollado Por:______________Olga Lizeth Monroy García
 -->
 <div class="modal" id="Olga" role="dialog" data-backdrop="static" data-keyboard="false">
 	<div class="modal-content">
@@ -69,7 +69,7 @@
 				</td>
 				<td ><b>:</b></td>
 				<td>
-					lismg90
+					lizmg90
 				</td>
 			</tr>
 			<tr>
