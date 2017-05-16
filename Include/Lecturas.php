@@ -1,5 +1,5 @@
 <!-- 
-	Desarrollado Por:______________Tec. Jerffen Mendoza Regino.
+	Desarrollado Por:______________Olga Lizeth Monroy García.
 -->
 <?php 
 	if (isset($_GET['MySQL']))
