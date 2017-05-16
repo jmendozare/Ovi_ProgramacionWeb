@@ -1,5 +1,5 @@
 /*
-	Desarrollado Por:______________Tec. Jerffen Mendoza Regino.
+	Desarrollado Por:______________Olga Lizeth Monroy García.
 */
 /* Estilo generales para el Software */
 @charset "utf-8";
@@ -16,7 +16,7 @@ ul, ol{
 body{
  	width: 99.6%;
   	font-family: Angsana New;
-  	font-size: 16px;
+  	font-size: 14px;
   	margin: auto;
   	background-color: #F1F1F1;
 }
