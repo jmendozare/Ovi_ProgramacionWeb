@@ -1,5 +1,5 @@
 <!--
-	Desarrollado Por:______________Olga Lizeth Monroy García.
+	Desarrollado Por:______________Olga Lizeth Monroy García
  -->
 <!DOCTYPE html>
 <html lang="es">
